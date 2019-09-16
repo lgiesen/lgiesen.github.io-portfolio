@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css"><!--Icons Social Media(Twitter etc.)-->
+  <script src="https://kit.fontawesome.com/38e4862e9b.js"></script> <!--Other icons-->
+  <link href="Logo/roundLogoLG.png" rel=icon><!--Website window icon-->
+  <link rel="stylesheet" href="../../download/bootstrap-4.3.1-dist/css/bootstrap.css"><!--Bootstrap (customized)-->
+  <link rel="stylesheet" href="css/style.css"><!--other style adjustments-->
+  <title>Leo Giesen - Portfolio</title>
+</head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200"> <!--Scrollspy implementiert: data-spy erkennt scroll; data-target zeigt dem Ziel (Navbar), wo scroll ist; data-offset inkludiert Überschrift-->
+  <nav class="navbar navbar-expand-lg site-navbar bg-light" id="pb-navbar"><!--part #1 Start navbar-->
+    <div class="container"> <!--part #1 Start navbar-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="branding" href="../../../../Anderes/Job/Generell/Leo Giesen - Lebenslauf.pdf" id="navbrandCV">CV</a>
+      <a class="branding" href="mailto:b.leogiesen@gmail.com" id="contact">Contact</a>
+      <div class="collapse navbar-collapse justify-content-md-center" id="navLinks"> 
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="list-group-item nav-link" href="#About" id="uebermich">About</a></li>
+          <li class="nav-item"><a class="list-group-item nav-link" href="#Services" id="uebermich">Services</a></li>
+        </ul>
+      </div>
+      <a href="#de" id="deu" data-reload><img src="images/de.png" class="languages"></a>
+      <a href="#en" id="eng" data-reload><img src="images/en.png" class="languages"></a>
+    </div>
+  </nav> <!--part #1 End navbar-->
+<!-- Home -->
+  <section class="site-hero" id="Home" data-stellar-background-ratio="0.5"> <!--part #2 Start Introduction/Home-->
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6 text-center">
+          <img src="images/profilbild.jpg" id="homePic">
+        </div>
+        <div class="col-md-6 text-center" id="intro">
+          <h1><span id="hello">Hi, I'm  </span><br>Leo Giesen</h1>
+          <p class="lead site-subheading mt-5">
+            studying committedly Information Systems <br> at <a target="_blank" href="https://www.uni-muenster.de/en/">University of M&uuml;nster</a> 
+            <br>ambitious student consultant at <a href="https://move-ev.de/" target="_blank">move e. V.</a>
+            <br>passionate/enthusiastic student assistant at chair of <a target="_blank" href="https://www.wi.uni-muenster.de/">Information Systems</a></p>
+        </div>
+      </div>
+    </div>
+  </section> <!-- part #2 End Introduction/Home-->
+<!-- About -->
+  <section class="site-section mt-5" id="About"> <!--End About-->
+    <div class="container"><!--part #3 Start About Me-->
+        <div class="section-heading">
+            <h2 id="aboutMe">About Me</h2>
+          </div>
+        <div class="row mb-5">
+          <div class="col-lg-6 ml-lg-5">
+            <p class="lead show-on-scroll" id="aboutDesc">I am very inquisitive, for example I got interested in computer science in school. <br>
+              Ever since, I tried to learn about as many topics as possible. For instance, I do personal projects about 
+              computer science outside of university, work as a student consultant at move and work for the chair of Information Systems.
+            </p>
+            <!-- <p class="text-center">
+                <a href="../../../../Anderes/Job/Generell/Leo Giesen - Lebenslauf.pdf" class="btn btn-outline-secondary px-4 py-2 btn-sm mr-lg-5">CV</a>
+              <a href="mailto:b.leogiesen@gmail.com" class="btn btn-outline-secondary px-4 py-2 btn-sm">Hire Me</a>
+              </p> -->
+          </div>
+          <div class="col-lg-5 text-center">
+            <img src="images/profilbild.jpg" id="profilbild" alt="Profilbild" class="rounded-circle show-on-scroll">
+          </div>
+        </div> <!-- part #3 End About Me-->
+    </div>
+  </section>
+<!-- Services -->
+  <section class="site-section" id="Services">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>What I can do for you</h2>
+      </div>
+      <!--flippable cards about my services-->
+      <div class="flexbox">
+        <!-- Webdevelopment card -->
+        <div class="flip show-on-scroll">
+          <div class="front"> <!--Front content-->
+            <div class="site-service-item" data-animate-effect="fadeIn">
+              <span class="icon">
+                  <i class="fas fa-code"></i>
+              </span>
+              <h3>Webdevelopment</h3>
+              <p>Interested in having your own Website?</p>
+            </div>
+          </div> 
+          <div class="back"> <!--Back content-->
+            <h3>Webdevelopment</h3>
+            <p>I have a passion for Webdevelopment so I am happy to solve any related problems for you! 
+              Since last year I intensely studied HTML, CSS, JavaScript and PHP. In the past I've also worked with Bootstrap, 
+              jQuery and Wordpress to help me. Furthermore, I can optimize your Website to be more easily found in the crowded web (SEO)</p>
+          </div>
+        </div>
+        <!-- Python und Java -->
+        <div class="flip show-on-scroll">
+            <div class="front"> <!--Front content-->
+              <div class="site-service-item" data-animate-effect="fadeIn">
+                <span class="icon">
+                  <i class="fab fa-java"></i>
+                  <i class="fab fa-python"></i>
+                </span>
+                <h3>Other programming languages</h3>
+                <p>My abilities with Python &amp; Java</p>
+              </div>
+            </div> 
+            <div class="back"> <!--Back content-->
+              <h3>Java</h3>
+              <p>Since I started studying Information Systems, we worked a lot with Java. 
+                I rapidly increased my set of skills as I know how to work with innheritance, interfaces, JUnit, flows to name a few</p>
+              <h3>Python</h3>
+              <p>I started learning Python in my freetime when I went school and continued working with it at university. 
+                I love working with it and would appreciate an oppotunity to enhance my Python skillset</p>
+            </div>
+        </div>
+        <!-- Strategieplaung-->
+        <div class="flip show-on-scroll">
+          <div class="front"> <!--Front content-->
+            <div class="site-service-item" data-animate-effect="fadeIn">
+              <span class="icon">
+                <!-- <i class="fas fa-chalkboard-teacher"></i> -->
+                <i class="fas fa-tasks"></i>
+              </span>
+              <h3>strategy planning & process management/Strategieplanung und Prozessmanagement</h3>
+              <p>How my innovation and experience can help you succeed</p>
+            </div>
+          </div> 
+          <div class="back"> <!--Back content-->
+            <h3>Innovation, Planning and Teamwork</h3>
+            <p>
+              <!-- <a href="https://www.daskarriereinstitut.de/" target="_blank">Karriere-Institut</a> -->
+              I can be a great asset to your projects because I am familiar with agile planning and SCRUM, which I learned in Seminars from university. 
+              Moreover, I used those skills in a small project about <span class="red">Customer Process Information Management</span> at <a href="https://www.sepaone.com/" target="_blank">SEPAone</a>.  
+              Additionally, I am able to contribute innovation and a modern perspective to your projects, which I put into action at move.
+              I leveled up my planning skills in university where I learned BPMN, a moddeling language for displaying a process.                
+            </p>
+          </div>
+        </div>
+        <!-- Projektarbeit (Teamwork, BWL and Law) -->
+        <div class="flip show-on-scroll">
+            <div class="front"> <!--Front content-->
+              <div class="site-service-item">
+                <span class="icon">
+                  <i class="fas fa-project-diagram"></i>
+                  <!-- <i class="fas fa-users"></i> -->
+                </span>
+                  <h3>Project Work</h3>
+                <p>personal interests</p>
+              </div>
+            </div> 
+            <div class="back"> <!--Back content-->
+              <h3></h3>
+              <p>At university and at move, we work together closely as a team, therefore I have great communication skills and am able foster a productive teamwork. <!--kommunikationsstark, teamwork-->
+                For instance those skills were helpful when I gave private lessons at school and played football in the district league. <!--Bezirksliga--> 
+                What is more, I completed several internships in law firms and economics makes up a great part of my studying. Law and economics are very interesting to me, 
+                hence I can give an assessment according to both fields  <!--Betriebswirtschaftliche Einschätzung (Studium, persönliches Interesse) & Juristische (Praktika)-->
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>      
+<!-- Footer -->
+  <footer class="site-footer border-top" id="footer">
+      <div class="container">
+        <div class="row">
+          <!--linke Spalte-->
+          <div class="col-md-4 text-center" id="workLinks">
+              <p>
+                  <a target="_blank" href="https://www.wi.uni-muenster.de/"><img src="images/WWU-without-background.png"></a>
+                  <a href="https://move-ev.de/" target="_blank">            <img src="images/move-without-background.png"></a>
+                  <a href="https://www.ercis.org/" target="_blank">         <img src="images/ERCIS.png"></a>
+                </p>
+                <p>&copy;<script>document.write(new Date().getFullYear())</script> Leo Giesen. <span id="rights">All rights reserved</span>.</p>
+          </div> 
+          <!--mittlere Spalte-->
+          <div class="col-md-4 text-center">
+            <h5 class="footerText" id="folgen">Folge Mir!</h5>
+            <div>
+              <!--<a href="#"                                             class="social-item mr-1 ml-1"></a><span class="icon-instagram2"></span></a>-->
+              <a href="https://twitter.com/i/flow/signup"             class="social-item  show-on-scroll"><span class="icon-twitter"></span></a>
+              <a href="#"                                             class="social-item  show-on-scroll"><span class="icon-facebook2"></span></a>
+              <a href="https://www.xing.com/profile/Leo_Giesen/cv"    class="social-item  show-on-scroll"><span class="icon-xing22"></span></a>
+              <a href="https://www.linkedin.com/in/leogiesen/"        class="social-item  show-on-scroll"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+          <!--rechte Spalte-->
+          <div class="col-md-4" id="contactDetail">
+            <h5 class="footerText text-center mb-4" id="kontaktdetails">Meine Kontaktdetails</h5>
+            <div class="row">
+              <div class="col-md-8">
+                <a href="mailto:b.leogiesen@gmail.com"><span class="icon-envelop"></span> b.leogiesen@gmail.com</a>
+                <p><span class="icon-location2"></span> M&uuml;nster, Deutschland</span></p>
+              </div>
+              <div class="col-md-4">
+                  <img id="Logo" src="Logo/roundLogoLG.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+<!--Für die navbar-->
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/popper.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/jquery.easing.1.3.js"></script>
+<script src="js/vendor/jquery.stellar.min.js"></script>
+<script src="js/vendor/jquery.waypoints.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="js/custom.js"></script>
+<!--Für das Flippen der Skill-Kacheln:-->
+<script src="../../download/flip-master/dist/jquery.flip.min.js"></script>
+<!-- adds/removes show-on-scroll class if element is within the viewport or not -->
+<script src="js/show-on-scroll.js"></script>
+<script> 
+  "use strict";//um moderneren Modus von JS zu nutzen
+  $(document).ready(function(){
+  //Übersetzung der Website
+    //Navbar
+    let uebermich = $("#uebermich");
+    let contact = $("#contact");
+    //Section Home/Übersicht
+    let hello = $("#hello");
+    let intro = $("");
+    //Section About Me/Über Mich
+    // let  = $("#");
+    // let  = $("#");
+    // let  = $("#");
+    // let  = $("#");
+    // let  = $("#");
+    // let  = $("#");
+    //Footer
+    let rights = $("#rights");
+    let aboutMe = $("#aboutMe");
+    let folgen = $("#folgen");
+    let kontaktdetails = $("#kontaktdetails");
+    $("#eng").click(function(){//Englisch
+      //Element geleert              und ausgetauscht mit
+      //Navbar
+      uebersicht.empty();           uebersicht.append("Home");
+      uebermich.empty();            uebermich.append("About");
+      contakt.empty();              contakt.append("Contact");
+      //Section Home/Übersicht
+      hello.empty();                hello.append("Hi, I'm");
+      //Section About Me/Über Mich
+      aboutMe.empty();              aboutMe.append("About Me");
+      
+      
+      //Footer
+      rights.empty();               rights.append("All rights reserved");
+      folgen.empty();               folgen.append("Follow Me On Social Media!");
+      kontaktdetails.empty();       kontaktdetails.append("My Contact Details");
+      // .empty();         .append("");
+      // .empty();         .append("");
+      // .empty();         .append("");
+      // .empty();         .append("");
+    });
+    $("#deu").click(function(){//Deutsch
+      //Element geleert              und ausgetauscht mit
+      //Navbar
+      uebersicht.empty();           uebersicht.append("&Uuml;bersicht");
+      uebermich.empty();            uebermich.append("&Uuml;ber Mich");
+      contakt.empty();              contakt.append("Kontakt");
+      //Section Home/Übersicht
+      hello.empty();                hello.append("Hi, ich bin");
+      //Section About Me/Über Mich
+      aboutMe.empty();              aboutMe.append("&Uuml;ber <strong>Mich</strong>");
+
+      //Footer
+      rights.empty();               rights.append("Alle Rechte vorbehalten");
+      folgen.empty();               folgen.append("Folge Mir!");
+      kontaktdetails.empty();       kontaktdetails.append("Meine Kontaktdetails");
+    });
+  // onClick-Funktion Flip
+    $(function(){
+      $(".flip").flip({
+      trigger: 'click'
+      });
+    });
+  });
+</script>
+</body>
+</html>

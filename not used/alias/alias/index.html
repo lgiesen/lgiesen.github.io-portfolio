@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<link rel="stylesheet" href="scss/bootstrap/_navbar.scss">-->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!--<link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flexslider.css">-->
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link href="images/profilbild.jpg" rel=icon><!--Website Reiter Icon-->
+    <link rel="stylesheet" href="../../download/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/38e4862e9b.js"></script> <!--Icons-->
+    <title>Leo Giesen - Portfolio</title>
+  </head>
+  <body data-spy="scroll" data-target="#pb-navbar" data-offset="200"> <!--Scrollspy implementiert: data-spy erkennt scroll; data-target zeigt dem Ziel (Navbar), wo scroll ist; data-offset inkludiert Überschrift-->
+    <!--<script src="../download/popper.js"></script> Popper.js-->
+    <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar"><!--part #1 Start navbar-->
+      <div class="container"> <!--part #1 Start navbar-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="../../CV/HTML/CV.html" id="navbrandCV">CV</a>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navLinks"> 
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#Home" id="uebersicht">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About" id="uebermich">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Services" id="uebermich">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact" id="kontakt">Contact</a></li>
+          </ul>
+        </div>
+        <a href="#de" id="deu" data-reload><img src="images/de.png" class="languages"></a>
+        <a href="#en" id="eng" data-reload><img src="images/en.png" class="languages"></a>
+      </div>
+    </nav> <!--part #1 End navbar-->
+    
+    <section class="site-hero" id="Home" data-stellar-background-ratio="0.5"> <!--part #2 Start Introduction/Home-->
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-10 text-center">
+            <img src="images/profilbild.jpg" class="float-left pr-5 pt-4 pl-2 mr-5">
+            <h1 class="site-heading site-animate">Hey, I'm <br>Leo Giesen</h1>
+            <p class="lead site-subheading mb-4 mr-5 mt-5 site-animate">
+                  An ambitious student of Information Systems <br> at <a target="_blank" href="https://www.uni-muenster.de/en/">University of M&uuml;nster</a> 
+              <br>student consultant at <a href="https://move-ev.de/" target="_blank">move e. V.</a>
+              <br>student assistant at chair of <a target="_blank" href="https://www.wi.uni-muenster.de/">Information Systems</a></p>
+          </div>
+       </div>
+      </div>
+    </section> <!-- part #2 End Introduction/Home-->
+    <section class="site-section" id="About"> <!--End About-->
+      <div class="container"><!--part #3 Start About Me-->
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                  <h2>About <strong>Me</strong></h2>
+                </div>
+                <p class="lead mb-5 pl-lg-5">I am very inquisitive, for example I got interested in computer science in school. <br>
+                  Ever since, I tried to learn about as many topics as possible. For instance, I do personal projects about 
+                  computer science outside of university, work as a student consultant at move and work for the chair of Information Systems.</p>
+                <p>
+                  <a href="#Contact" class="btn btn-outline-secondary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
+                  <a href="Leo Giesen Lebenslauf.pdf" class="btn btn-outline-secondary px-4 py-2 btn-sm">Download CV</a>
+                </p>
+              </div>
+          <div class="col-lg-5 pl-5 pr-lg-5 mb-5 mb-lg-0">
+            <img src="images/profilbild.jpg" alt="Profilbild" class="img-fluid rounded-circle" style="box-shadow: 1px 1px 5px 2px grey">
+          </div>
+        </div> <!-- part #3 End About Me-->
+    </div>
+    <section class="site-section border-top pb-0"  id="Services">
+      <div class="container">
+
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <div class="section-heading text-center">
+              <h2>My <strong>Services</strong></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 text-center">
+            <div class="site-service-item site-animate" id="item" data-animate-effect="fadeIn">
+              <span class="icon">
+                <span class="icon-phone3"></span>
+              </span>
+              <h3 class="mb-4">Design &amp; Create Your Website</h3>
+              <p>Mobile First</p>
+              <p><a href="#webButton" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center">
+            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
+              <span class="icon">
+                <span class="icon-wallet2"></span>
+              </span>
+              <h3 class="mb-4">Strategsche Planung</h3>
+              <p>Text</p>
+              <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center">
+            <div class="site-service-item site-animate" data-animate-effect="fadeIn">
+              <span class="icon">
+                <span class="icon-lightbulb"></span>
+              </span>
+              <h3 class="mb-4">Innovation</h3>
+              <p>Text</p>
+              <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>      
+    <section class="site-section">
+        <div class="container">      
+        <div class="row pt-5"> <!-- part #4 Start My Skills-->
+          <div class="col-md-3 mb-3">
+              <div class="section-heading">
+                <h2>My <strong>Skills</strong></h2>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 pr-5">
+            <!--Skill Start-->
+            <div class="skill">
+              <h3 class="btn btn-outline-secondary btn-sm" id="javaButton">Java</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+                <h3 class="btn btn-outline-secondary btn-sm" id="webButton">Webdevelopment</h3> <!--HTMl, CSS, JS, jQuery, ggf. Bootstrap & Wordpress-->
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+                    <span>92%</span>
+                  </div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3 class="btn btn-outline-secondary btn-sm" id="JSButton">Java Script</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    <span>70%</span>
+                  </div>
+                </div>
+            </div> 
+            <div class="skill">
+                <h3 class="btn btn-outline-secondary btn-sm" id="PythonButton">Python</h3>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    <span>70%</span>
+                  </div>
+                </div>
+            </div>
+            <!--Skill Ende-->
+          </div>
+          <div class="col-md-6 pl-5">
+            <!--Beschreibung Skill Start-->
+            <!--1. Texte-->
+            <p class="jumbotron" id="BeschreibungSkill">
+                <span>Click on the skills to see how I learned them</span>
+            </p>
+            <!--2. onClick-Funktion-->
+            <script src="../../download/jquery-3.3.1.slim.min.js"></script> <!--jQuery-->
+            <script>
+                "use strict";//um moderneren Modus von JS zu nutzen
+                $(document).ready(function(){
+                  let desc = $("#BeschreibungSkill"); 
+                  $("#javaButton").click(function(){
+                    desc.empty(); //Jumtobron wird geleert
+                    desc.append("<span><strong>Java</strong><br>Java Text</span>"); //und durch diesen Text ersetzt
+                  });
+                  $("#webButton").click(function(){
+                    desc.empty();
+                    desc.append("<span><strong>Bootstrap</strong><br>Webdevelopment Text</span><br>HTMl, CSS, JS, jQuery, ggf. Bootstrap &amp; Wordpress");
+                  });
+                  $("#JSButton").click(function(){
+                    desc.empty();
+                    desc.append("<span><strong>JavaScript & jQuery</strong><br>JS & jQuery Text</span>");
+                  });
+                  $("#PythonButton").click(function(){
+                    desc.empty(); 
+                    desc.append("<span><strong>Python</strong><br>Python Text</span>");
+                  });
+                });
+              </script>
+            <!--Beschreibung Skill Ende-->
+          </div>
+        </div>
+      </div> <!-- part #4 Ende My Skills-->
+    </section> <!--End About-->
+    <section class="site-section bg-light" id="Contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-4">
+            <div class="section-heading text-center">
+              <h2>Interested In <strong>Working</strong> With Me?</h2>
+            </div>
+          </div>
+          
+          <div class="col-md-7 mb-5 mb-md-0">
+            <form method="post" action="contactMe.php" class="site-form">
+              <h3 class="mb-5">Get In Touch</h3>
+              <div class="form-group">
+                <input type="text" name="name" class="form-control px-3 py-4" placeholder="Your Name" max-length="50" minlength="3" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" class="form-control px-3 py-4" placeholder="Your Email" max-length="50" minlength="7">
+              </div>
+              <div class="form-group">
+                <input type="tel" name="phonenumber" class="form-control px-3 py-4" placeholder="Your Phone Number" pattern="[0-9]{max 14}" maxlength="14" minlength="8">
+              </div>
+              <div class="form-group" name="message" >
+                <textarea class="form-control px-3 py-4" cols="30" rows="10" placeholder="Write a Message" required></textarea>
+              </div>
+              <div class="form-group">
+                  <input type="submit" class="btn btn-outline-dark px-4 py-3 float-right" value="Send Message">
+                </div>
+            </form>
+          </div>
+          <div class="col-md-5 pl-md-5">
+            <h3 class="mb-5">My Contact Details</h3>
+            <ul class="site-contact-details">
+              <li>
+                <span class="text-uppercase">Email</span>
+                <a href="mailto:b.leogiesen@gmail.com">b.leogiesen@gmail.com</a>
+              </li>
+              <li>
+                <span class="text-uppercase">Address</span>
+               Muenster, Germany
+              </li>
+              <li>
+                <a class="smoothscroll" href="#footer" id="directLinkContact">SOCIAL MEDIA <i class="fas fa-angle-double-down"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer mb-0" id="footer">
+        <div class="container mb-0">
+          <div class="row mb-0">
+            <p class="col-md-7 text-center mb-0">
+              <a target="_blank" href="https://www.wi.uni-muenster.de/"><img src="images/WWU.jpg"></a>
+              <a href="https://move-ev.de/" target="_blank">            <img src="images/move small.png"></a>
+              <a href="https://www.ercis.org/" target="_blank">         <img src="images/ERCIS.png"></a>
+            </p>
+            <div class="col-md-5 text-center mb-0">
+              <p id="followMe">Follow Me On Social Media!</p>
+              <div class="">
+                <!--<a href="#"                                             class="social-item mr-1 ml-1"></a><span class="icon-instagram2"></span></a>-->
+                <a href="https://twitter.com/i/flow/signup"             class="social-item mr-1 ml-1"><span class="icon-twitter"></span></a>
+                <a href="#"                                             class="social-item mr-1 ml-1"><span class="icon-facebook2"></span></a>
+                <a href="https://www.xing.com/profile/Leo_Giesen/cv"    class="social-item mr-1 ml-1"><span class="icon-xing22"></span></a>
+                <a href="https://www.linkedin.com/in/leogiesen/"        class="social-item mr-1 ml-1"><span class="icon-linkedin"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center mb-0">
+            <div class="col-md-7 text-center"><p>&copy;<script>document.write(new Date().getFullYear())</script> Leo Giesen</p></div>  
+              <p class="col-md-5 text-center">
+              </p>
+          </div>
+        </div>
+    </footer>
+
+<!--Für die navbar-->
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/popper.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+
+<script src="js/vendor/jquery.easing.1.3.js"></script>
+<script src="js/vendor/jquery.stellar.min.js"></script>
+<script src="js/vendor/jquery.waypoints.min.js"></script>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="js/custom.js"></script>
+
+<!-- Google Map 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>-->
+    <script> //Übersetzung der Website
+      $(document).ready(function(){
+        let cv = $("#navbrandCV");
+        let uebersicht = $("#uebersicht");
+        let uebermich = $("#uebermich");
+        let kontakt = $("#kontakt");
+        $("#eng").click(function(){
+          //Element geleert     und ausgetauscht mit
+          //Navbar
+          uebersicht.empty();   uebersicht.append("Home");
+          uebermich.empty();    uebermich.append("About");
+          kontakt.empty();      kontakt.append("Contact");
+        });
+        $("#deu").click(function(){
+          //Element geleert     und ausgetauscht mit
+          //Navbar
+          uebersicht.empty();   uebersicht.append("&Uuml;bersicht");
+          uebermich.empty();    uebermich.append("&Uuml;ber Mich");
+          kontakt.empty();      kontakt.append("Kontakt")
+          
+        });
+      });
+    </script>
+    </body>
+</html>
