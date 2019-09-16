@@ -55,14 +55,6 @@
   height: 350px;
   vertical-align: middle;
 }
-/* #intro:first-child {
-	margin-top: 0;
-	padding-top: 0;
-}
-#intro:last-child {
-	margin-bottom: 0;
-	padding-bottom: 0;
-} */
 /* About */
 br {
   display: block;
@@ -74,7 +66,7 @@ br {
 #aboutDesc {
   -webkit-box-shadow: 0px 0px 25px 0px rgba(220, 220, 220, 0.75);
   box-shadow: 0px 0px 25px 0px rgba(220, 220, 220, 0.75);
-  margin: 40px 0px 70px 0px;
+  margin-top: 40px;
   padding: 30px 40px;
   text-align: justify; /* Text stretches out to both ends of the div*/
   line-height: 1.7; /*  Space between lines*/
@@ -108,21 +100,27 @@ br {
   display: inline-block;
   margin: 0.5em auto; /* Abstand zwischen Boxen + gecentered*/
   width: 40%; /*Größe wird durch MediaQueries noch verändert*/
-  /* height: max(100%, max-height); */
   word-wrap: break-word;
-  opacity: 0;
+  /* opacity: 0; */
 }
-/* Vertical align cards */
-/* .flip .front * {
-  vertical-align: center;
-} */
 .flip.isVisible {
-  opacity: 1;
+  /* opacity: 1; */
   -webkit-animation: slideInUp 1s; /* Safari 4.0 - 8.0 */
   animation: slideInUp 1s;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
+/* animation delay does not work out, because as soon as they are visible (.isVisible) they are visible, but the animation begins later */
+/* .flip.isVisible:nth-child(1),
+.flip.isVisible:nth-child(3) {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+.flip.isVisible:nth-child(2),
+.flip.isVisible:nth-child(4) {
+  -webkit-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+} */
 /* Abstand Frontseite Überschrift zu Text darunter */
 .flip .front .site-service-item > h3 {
   margin-bottom: 1.5em;
@@ -346,9 +344,9 @@ a:not(#workLinks, .social-item):hover {
 .site-navbar.scrolled .navbar-nav > li > a {
   color: rgba(0, 0, 0, 0.7) !important;
 }
-.site-navbar.scrolled .navbar-nav > li > a:hover {
-  /* border: 1px solid #4e3c54; */
-}
+/* .site-navbar.scrolled .navbar-nav > li > a:hover {
+  border: 1px solid #4e3c54;
+} */
 .site-navbar.scrolled .navbar-nav > li > a.active {
   /* active Navbar*/
   color: #4e3c54 !important;
@@ -408,7 +406,7 @@ a:not(#workLinks, .social-item):hover {
 }
 
 .site-section {
-  padding: 2em 0;
+  padding: 2em 0 0 0;
   color: #4e3c54;
 }
 
