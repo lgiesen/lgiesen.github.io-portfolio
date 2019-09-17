@@ -154,9 +154,10 @@ sup {
 a {
   text-decoration: none;
 }
-/*
-a:hover {
-  color: #0056b3;
+
+/* a:hover {
+  border: none;
+  color: #4e3c54;
   text-decoration: underline;
 } */
 

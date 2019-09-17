@@ -1,0 +1,31 @@
+/* 404 Not Found */
+
+body {
+  color: #4e3c54;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 350;
+}
+.container {
+  margin-top: 20vh;
+}
+
+#DogText {
+  text-align: justify;
+  margin: 10% 2em 0 0;
+  max-height: 100%; /*so that element stretches out to size of picture*/
+  /* border: #4e3c54 1px solid; */
+}
+h1 {
+  font-size: 35px;
+}
+p {
+  font-size: 22px;
+}
+img {
+  height: 60vh;
+}
+
+/* <link href='https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans&display=swap' rel='stylesheet'>        <!--Google Fonts: Open Sans + PT Sans--> */
