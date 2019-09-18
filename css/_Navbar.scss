@@ -1,0 +1,171 @@
+#homeIconA > i {
+  color: $lightercolor;
+  font-size: 1.5em;
+  vertical-align: middle;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+
+  &:hover {
+    color: $darkercolor;
+  }
+}
+.languages {
+  height: 27px;
+  margin-right: 1em;
+  opacity: 0.5;
+  -webkit-animation: fadeInDownLang 0.5s;
+  animation: fadeInDownLang 0.5s;
+}
+
+.languages:hover {
+  opacity: 1;
+}
+
+#navbrandCV,
+#contact {
+  border-color: $darkercolor;
+  color: $darkercolor;
+  padding: 6px 15px;
+  font-weight: 400;
+  text-transform: none;
+  &:hover {
+    background-color: $darkercolor;
+    color: #fff;
+    /* Firefox */
+    /* WebKit */
+    -webkit-transition: all 0.5s ease;
+    /* Opera */
+    /* Standard */
+    transition: all 0.5s ease;
+  }
+}
+
+.nav-item {
+  margin: 0px 5px;
+}
+
+.branding,
+.nav-item {
+  -webkit-animation: fadeInDown 0.5s;
+  animation: fadeInDown 0.5s;
+}
+
+.site-navbar {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  z-index: 200;
+  background: #fff;
+  .navbar-brand {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    &:hover {
+      color: #fff;
+    }
+  }
+  &.bg-light {
+    background: transparent !important;
+  }
+  .navbar-nav {
+    > li > a {
+      /* Navbar Links Home About Services Contact*/
+      font-size: 14px;
+      font-weight: 400;
+      /* position: relative; */
+      letter-spacing: 0.15em;
+      text-decoration: none;
+      /* color of nav items in Home */
+      color: $darkercolor;
+      &:hover:not(#homeIconA) {
+        /*Navbar hover*/
+        /* background: $lightercolor; */
+        border: 0.5px solid $darkercolor;
+      }
+    }
+    &.active > a {
+      color: #fff !important;
+    }
+  }
+  &.scrolled {
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    &.bg-light {
+      background: #fff !important;
+    }
+    .navbar-brand {
+      display: inline-block;
+      font-size: 18px;
+      border: 2px solid #000;
+      padding: 2px 10px !important;
+    }
+    &.awake,
+    &.sleep {
+      -webkit-transition: 0.3s all ease;
+      transition: 0.3s all ease;
+    }
+    &.awake {
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+      background: #fff !important;
+    }
+    .site-navbar.scrolled.sleep {
+      -webkit-transform: translateY(-90%);
+      transform: translateY(-90%);
+      background: $darkercolor !important;
+    }
+    .navbar-brand {
+      color: $darkercolor;
+    }
+    .dropdown > a:before {
+      color: rgba(0, 0, 0, 0.4);
+    }
+    .navbar-nav > li > a {
+      > a {
+        color: rgba(0, 0, 0, 0.7) !important;
+        .active {
+          /* active Navbar*/
+          color: $darkercolor !important;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  /* Navbar */
+  .languages {
+    float: right;
+  }
+
+  #contact,
+  #navbrandCV {
+    float: left;
+    margin: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .site-navbar.bg-light {
+    background: #fff !important;
+    top: 0;
+  }
+
+  .site-navbar.bg-light .navbar-brand {
+    display: inline-block;
+    font-size: 18px;
+    border: 2px solid #000;
+    padding: 2px 10px !important;
+    color: #000;
+  }
+}
