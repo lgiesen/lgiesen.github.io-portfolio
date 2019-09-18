@@ -174,7 +174,7 @@ br {
 
 .flip .front:hover,
 .flip .back {
-  background-color: #dd5313;
+  background-color: #BBC9CE;
   /* Firefox */
   /* WebKit */
   -webkit-transition: all 0.2s ease-in;
@@ -216,7 +216,7 @@ br {
 /* Shodow for footer*/
 footer {
   margin-bottom: 0px;
-  background: #dd5313;
+  background: #BBC9CE;
   -webkit-box-shadow: 0px -20px 21px 0px rgba(187, 201, 206, 0.6);
   box-shadow: 0px -20px 21px 0px rgba(187, 201, 206, 0.6);
 }
@@ -330,7 +330,7 @@ a:not(#workLinks, .social-item):hover {
 }
 
 #homeIconA > i {
-  color: #dd5313;
+  color: #BBC9CE;
   font-size: 1.5em;
   vertical-align: middle;
   -webkit-transition: color 0.5s ease;
@@ -422,7 +422,7 @@ a:not(#workLinks, .social-item):hover {
   /* Shadow for home */
   -webkit-box-shadow: 0px 20px 21px 0px rgba(187, 201, 206, 0.6);
   box-shadow: 0px 20px 21px 0px rgba(187, 201, 206, 0.6);
-  background-color: #dd5313;
+  background-color: #BBC9CE;
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -529,7 +529,7 @@ a:not(#workLinks, .social-item):hover {
 .site-service-item .icon {
   display: block;
   margin-bottom: 50px;
-  background: #dd5313;
+  background: #BBC9CE;
   width: 120px;
   height: 120px;
   position: relative;
