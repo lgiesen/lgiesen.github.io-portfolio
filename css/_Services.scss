@@ -39,11 +39,9 @@
     backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-  }
-
-  .front > p,
-  .back > p {
-    text-align: justify;
+    > p {
+      text-align: justify;
+    }
   }
 
   /* Abstand Frontseite Überschrift zu Text darunter */
@@ -75,6 +73,10 @@
 .fa-python {
   padding-left: 40%;
 }
+.flip .front .site-service-item > h3 {
+  margin-bottom: 1.5em;
+}
+//.............................
 .site-service-item {
   padding: 2rem 2rem;
   margin-bottom: 2rem;
