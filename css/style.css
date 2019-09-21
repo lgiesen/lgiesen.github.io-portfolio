@@ -209,6 +209,7 @@ a:not(#workLinks, .social-item):hover {
   color: #ffffff;
   text-decoration: none;
 }
+/* Animation for links with dark background */
 .linkAnimation {
   position: relative;
   text-decoration: none;
@@ -229,6 +230,31 @@ a:not(#workLinks, .social-item):hover {
   transition: all 0.5s ease;
 }
 .linkAnimation:hover::after {
+  left: 0%;
+  width: 100%;
+}
+/* Animation for links with light background */
+
+.linkAnimaitonWhiteBackground {
+  color: #4e3c54;
+  position: relative;
+  text-decoration: none;
+  font-style: italic;
+  display: inline-block;
+}
+.linkAnimaitonWhiteBackground::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #4e3c54;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  border-radius: 1em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.linkAnimaitonWhiteBackground:hover::after {
   left: 0%;
   width: 100%;
 }
