@@ -68,7 +68,7 @@ a:not(#workLinks, .social-item):hover {
   }
 }
 .linkAnimation {
-  @include linkAnimation($white);
+  @include linkAnimation($darkercolor);
 }
 /* Animation for links with light background */
 .linkAnimaitonWhiteBackground {

@@ -533,7 +533,7 @@ a:not(#workLinks, .social-item):hover {
   position: relative;
   font-style: italic;
   text-decoration: none;
-  color: #fff;
+  color: #4e3c54;
   /* Damit Link nicht gebrochen werden und Animatoin funktioniert */
   display: inline-block;
 }
@@ -542,7 +542,7 @@ a:not(#workLinks, .social-item):hover {
   content: "";
   width: 0;
   height: 1px;
-  background-color: #fff;
+  background-color: #4e3c54;
   position: absolute;
   bottom: 0%;
   left: 50%;
