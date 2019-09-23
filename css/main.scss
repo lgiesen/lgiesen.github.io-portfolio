@@ -68,12 +68,20 @@ a:not(#workLinks, .social-item):hover {
   }
 }
 .linkAnimation {
-  @include linkAnimation($darkercolor);
+  @include linkAnimation($white);
 }
 /* Animation for links with light background */
 .linkAnimaitonWhiteBackground {
   @include linkAnimation($darkercolor);
 }
+// .flip > .back > p > a {
+//   color: #fff;
+//   font-style: italic;
+//   display: inline-block;
+//   &:hover {
+//     text-decoration: underline;
+//   }
+// }
 //used in Home & About
 .lead {
   font-weight: 200;

@@ -204,7 +204,6 @@ h5 {
   font-weight: 200;
 }
 
-a,
 a:not(.social-item):hover {
   color: #ffffff;
   text-decoration: none;
@@ -212,16 +211,18 @@ a:not(.social-item):hover {
 /* Animation for links with dark background */
 .linkAnimation {
   position: relative;
+  font-style: italic;
   text-decoration: none;
-  color: #fff;
+  color: #4e3c54;
   /* Damit Link nicht gebrochen werden und Animatoin funktioniert */
   display: inline-block;
 }
+
 .linkAnimation::after {
   content: "";
   width: 0;
   height: 1px;
-  background-color: #fff;
+  background-color: #4e3c54;
   position: absolute;
   bottom: 0%;
   left: 50%;
@@ -229,19 +230,22 @@ a:not(.social-item):hover {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+
 .linkAnimation:hover::after {
   left: 0%;
   width: 100%;
 }
-/* Animation for links with light background */
 
+/* Animation for links with light background */
 .linkAnimaitonWhiteBackground {
-  color: #4e3c54;
   position: relative;
-  text-decoration: none;
   font-style: italic;
+  text-decoration: none;
+  color: #4e3c54;
+  /* Damit Link nicht gebrochen werden und Animatoin funktioniert */
   display: inline-block;
 }
+
 .linkAnimaitonWhiteBackground::after {
   content: "";
   width: 0;
@@ -254,10 +258,12 @@ a:not(.social-item):hover {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+
 .linkAnimaitonWhiteBackground:hover::after {
   left: 0%;
   width: 100%;
 }
+
 .site-navbar {
   position: absolute;
   top: 20px;
