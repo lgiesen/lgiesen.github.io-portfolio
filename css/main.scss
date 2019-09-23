@@ -71,7 +71,7 @@ a:not(#workLinks, .social-item):hover {
   @include linkAnimation($white);
 }
 /* Animation for links with light background */
-.linkAnimaitonWhiteBackground {
+.linkAnimationWhiteBackground {
   @include linkAnimation($darkercolor);
 }
 // .flip > .back > p > a {
@@ -149,8 +149,19 @@ a:not(#workLinks, .social-item):hover {
   }
 }
 */
-@media (min-width: 768px) {
+
+@media (min-width: 767.98px) {
   .site-hero h1 {
     font-size: 70px;
+  }
+}
+@media (max-width: 575.98px) {
+  #Home > .container {
+    margin-top: 60px;
+  }
+  #Home {
+    // to counteract the overflow, which exists because of the margin-top of the container
+    height: 200%;
+    // overflow: auto;
   }
 }

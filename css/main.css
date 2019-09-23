@@ -557,7 +557,7 @@ a:not(#workLinks, .social-item):hover {
 }
 
 /* Animation for links with light background */
-.linkAnimaitonWhiteBackground {
+.linkAnimationWhiteBackground {
   position: relative;
   font-style: italic;
   text-decoration: none;
@@ -566,7 +566,7 @@ a:not(#workLinks, .social-item):hover {
   display: inline-block;
 }
 
-.linkAnimaitonWhiteBackground::after {
+.linkAnimationWhiteBackground::after {
   content: "";
   width: 0;
   height: 1px;
@@ -579,7 +579,7 @@ a:not(#workLinks, .social-item):hover {
   transition: all 0.5s ease;
 }
 
-.linkAnimaitonWhiteBackground:hover::after {
+.linkAnimationWhiteBackground:hover::after {
   left: 0%;
   width: 100%;
 }
@@ -653,9 +653,18 @@ a:not(#workLinks, .social-item):hover {
   }
 }
 */
-@media (min-width: 768px) {
+@media (min-width: 767.98px) {
   .site-hero h1 {
     font-size: 70px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #Home > .container {
+    margin-top: 60px;
+  }
+  #Home {
+    height: 200%;
   }
 }
 /*# sourceMappingURL=main.css.map */
