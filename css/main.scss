@@ -151,12 +151,13 @@ a:not(#workLinks, .social-item):hover {
   }
 }
 */
-
+//Tablets and bigger
 @media (min-width: 767.98px) {
   .site-hero h1 {
     font-size: 70px;
   }
 }
+//phones
 @media (max-width: 575.98px) {
   #Home > .container {
     margin-top: 60px;
