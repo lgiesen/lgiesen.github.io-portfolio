@@ -203,6 +203,8 @@ body {
 }
 
 #homePic {
+  -webkit-box-shadow: 3px 3px 5px 3px #4e3c54;
+          box-shadow: 3px 3px 5px 3px #4e3c54;
   height: 50vh;
   max-width: 90vw;
   vertical-align: middle;
@@ -296,7 +298,8 @@ br {
 }
 
 #profilbild {
-  /* box-shadow: 1px 1px 5px 2px grey; */
+  -webkit-box-shadow: 3px 3px 5px 3px #ccc;
+          box-shadow: 3px 3px 5px 3px #ccc;
   margin: 5em 0px auto 2em;
   height: 47vh;
   max-width: 90vw;
